@@ -6,24 +6,24 @@
 /*   By: rilliano <rilliano@student.42roma.it>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/08 18:42:46 by rilliano          #+#    #+#             */
-/*   Updated: 2024/12/08 18:42:47 by rilliano         ###   ########.fr       */
+/*   Updated: 2024/12/15 00:06:12 by rilliano         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ZOMBIE_HPP
-#define ZOMBIE_HPP
+# define ZOMBIE_HPP
 
-#include <string>
+# include <string>
 
 class Zombie {
-private:
-    std::string name;
+    private:
+        std::string name;
 
-public:
-    Zombie();
-    ~Zombie();
-    void setName(std::string name);
-    void announce();
+    public:
+        Zombie();
+        ~Zombie();
+        void setName(std::string name);
+        void announce();
 };
 
 #endif
